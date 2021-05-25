@@ -8,6 +8,6 @@ This repo demonstrates how to use the GitHub REST API and GraphQL APIs to export
 4. Add the token to your .env file as shown `GH_AUTH_TOKEN=inserttokenhere`
 55. Run `npm install` to install node dependencies
 6. Run `node get-dependabot-alerts.js org > output.csv` where `org` is the name of your target organization. Note, if SSO is enabled on your org, you will need to SSO enable your token
-    6a. Optionally, you can run `node get-dependabot-alerts.js 'org' http://enterprise.github.yourcompany.com > output.csv` where the optional second parameter is your github enterprise base URL
+6a. Optionally, you can run `node get-dependabot-alerts.js 'org' http://enterprise.github.yourcompany.com > output.csv` where the optional second parameter is your github enterprise base URL
 ### License
 This project is licensed under the MIT License. 
