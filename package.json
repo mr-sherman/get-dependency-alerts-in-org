@@ -9,7 +9,7 @@
   "author": "GitHub",
   "license": "MIT",
   "dependencies": {
-    "@octokit/graphql": "^4.5.3",
+    "@octokit/graphql": "^8.2.0",
     "@octokit/rest": "^21.0.2",
     "delay": "^4.4.0",
     "dotenv": "^8.2.0",
